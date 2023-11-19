@@ -1,24 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="skapauser.css">
   <title>Skapa Användare</title>
 </head>
+
 <body>
   <nav>|
     <a href="startsida.html">Startsida</a> |
-    <a href="spelet.html">Starta Spelet</a> |
+    <a href="skapauser.html">Starta Spelet</a> |
     <a href="matchhistorik.html">Match historik</a> |
     <a href="leaderboard.html">Leaderboard</a> |
-    <a href="skapauser.html">Skapa Användare</a> |
+    <a href="">Spelar Historik</a> |
   </nav>
+
+
+  <div id="createPlayer">
+    <div class="player-container">
+      <h2>Player X:</h2>
+      <input id="userNameX" type="text">
+    </div>
+    <div class="player-container">
+      <h2>Player O:</h2>
+      <input id="userNameO" type="text">
+    </div>
+    <button onclick="savePlayerBtn()">Starta Spelet</button>
+
+    </button>
+
+  </div>
+  <section>
+
+  </section>
+  <script src="skapauser.js" defer></script>
 
 
 
   <footer>
-  <p>/dmikozzz</p>
+    <p>/dmikozzz</p>
   </footer>
 </body>
+
 </html>

@@ -14,8 +14,8 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  
-  
+
+
   text-align: center;
   font-family: 'MavenPro', sans-serif;
   font-size: 30px;
@@ -41,4 +41,61 @@ a:hover {
 
 a:active {
   color: rgb(67, 160, 247);
+}
+
+
+#createPlayer {
+  width: 50%;
+  height: auto;
+  margin-top: 10vh;
+}
+
+.player-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+button {
+  font-family: 'MavenPro', sans-serif;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h2 {
+  font-family: 'MavenPro', sans-serif;
+  color: rgb(27, 27, 27);
+  margin-right: 10px;
+  width: 110px;
+}
+
+input {
+  flex: 1;
+  font-family: 'MavenPro', sans-serif;
+  font-size: xx-large;
+  width: 10vh;
+  margin-left: 10px;
+}
+
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-size: 25px;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
