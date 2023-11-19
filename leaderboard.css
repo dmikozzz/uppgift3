@@ -42,3 +42,23 @@ a:hover {
 a:active {
   color: rgb(67, 160, 247);
 }
+
+table {
+  font-family: 'MavenPro';
+  color: rgb(0, 0, 0);
+  font-size: 4.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+h2 {
+  font-family: 'MavenPro';
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh;
+  text-decoration: wavy underline rgb(67, 160, 247);
+}
