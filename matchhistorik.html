@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="matchhistorik.css">
   <title>Match Historik</title>
 </head>
+
 <body>
-    <nav>|
-      <a href="startsida.html">Startsida</a> |
-      <a href="skapauser.html">Starta Spelet</a> |
-      <a href="matchhistorik.html">Match historik</a> |
-      <a href="leaderboard.html">Leaderboard</a> |
-      <a href="">Spelar Historik</a> |
-    </nav>
+  <nav>|
+    <a href="startsida.html">Startsida</a> |
+    <a href="skapauser.html">Starta Spelet</a> |
+    <a href="matchhistorik.html">Match historik</a> |
+    <a href="leaderboard.html">Leaderboard</a> |
+    <a href="">Spelar Historik</a> |
+  </nav>
+
+  <h2>Match historik</h2>
+
+  <table id="matchHistoryTable">
+    <thead>
+      <tr>
+        <th>Spelare X</th>
+        <th>Spelare O</th>
+        <th>Vinnare</th>
+        <th>Drag</th>
+        <th>Datum & tid</th>
+      </tr>
+    </thead>
+    <tbody id="matchHistoryBody"></tbody>
+  </table>
 
 
-    <footer>
+  <footer>
     <p>/dmikozzz</p>
-    </footer>
+  </footer>
+  <script src="matchhistorik.js" defer></script>
 </body>
+
 </html>

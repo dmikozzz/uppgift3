@@ -42,3 +42,45 @@ a:hover {
 a:active {
   color: rgb(67, 160, 247);
 }
+
+#matchHistoryTable {
+  width: 90%;
+  height: auto;
+
+}
+
+body {
+  font-family: 'MavenPro', sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(27, 27, 27);
+  text-align: center;
+
+}
+
+table {
+  margin: 50px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th,
+td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+
+}
+
+th {
+  background-color: rgb(67, 160, 247);
+  color: white;
+}
+
+h2 {
+  font-family: 'MavenPro';
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh;
+  text-decoration: wavy underline rgb(67, 160, 247);
+}
