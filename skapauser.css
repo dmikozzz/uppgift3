@@ -83,14 +83,6 @@ input {
 }
 
 
-p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-  font-size: 25px;
-}
-
 body {
   background-color: rgb(255, 255, 255);
   display: flex;
