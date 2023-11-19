@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'MavenPro';
+  src: local('MavenPro'), url('MavenPro-VariableFont_wght.ttf'), format('ttf');
+}
+
+nav {
+  text-align: center;
+  font-family: 'MavenPro', sans-serif;
+  font-size: 30px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+
+  text-align: center;
+  font-family: 'MavenPro', sans-serif;
+  font-size: 30px;
+}
+
+
+a:link {
+  color: rgb(67, 160, 247);
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: rgb(67, 160, 247);
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: rgb(119, 119, 119);
+  text-decoration: rgb(0, 0, 0) wavy underline;
+}
+
+
+a:active {
+  color: rgb(67, 160, 247);
+}
+
+body {
+  font-family: 'MavenPro', sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(27, 27, 27);
+  text-align: center;
+
+}
+
+select {
+  size: 10vh;
+  font-size: xx-large;
+}
+
+.choice {
+  font-size: xx-large;
+  font-family: 'MavenPro', sans-serif;
+}
+
+.upperSection {
+  margin-top: 40px;
+}
+
+#resultContainer {
+  font-size: x-large;
+  margin-bottom: 70px;
+  margin-top: 40px;
+}

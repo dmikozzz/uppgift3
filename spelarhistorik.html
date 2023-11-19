@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="startsida.css">
-  <title>Startsida</title>
+  <link rel="stylesheet" href="spelarhistorik.css">
+  <title>Spelarhistorik</title>
 </head>
 
 <body>
@@ -18,9 +18,17 @@
     <a href="spelarhistorik.html">Spelares matcher</a> |
   </nav>
 
+  <div class="upperSection">
+    <label for="nameSelector" class="choice">Välj spelare: </label>
+    <select class="choice" id="nameSelector"></select>
+    <button class="choice" onclick="showPlayerHistory()">Visa</button>
+  </div>
+  <div id="resultContainer"></div>
+  
   <footer>
     <p>/dmikozzz</p>
   </footer>
+  <script src="spelarhistorik.js" defer></script>
 </body>
 
 </html>
