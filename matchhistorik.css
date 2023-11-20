@@ -18,7 +18,7 @@ footer {
 
   text-align: center;
   font-family: 'MavenPro', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 a:link {
@@ -60,7 +60,7 @@ body {
 table {
   margin: 50px auto;
   border-collapse: collapse;
-  width: 80%;
+  width: 90%;
 }
 
 th,
