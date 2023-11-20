@@ -82,7 +82,7 @@ function endGame(draw) {
   if (draw) {
     winningMessageTextElement.innerText = 'Draw!';
   } else {
-    winningMessageTextElement.innerText = `${circleTurn ? "O's" : "X's"} Wins! Total moves done: ${moveCount}`;
+    winningMessageTextElement.innerText = `${circleTurn ? "O" : "X"} Vann! Efter ${moveCount} drag.`;
   }
   winningMessageElement.classList.add('show');
 }

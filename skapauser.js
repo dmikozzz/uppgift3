@@ -8,14 +8,14 @@ function savePlayerBtn() {
 
   if (!playerXName || !playerOName) {
     if (!alertMessage) {
-      alert('You have to enter both names!');
+      alert('Du måste skriva in båda namnen!');
     }
     return;
   }
 
   if (playerXName.length > 10 || playerOName.length > 10) {
     if (!alertMessage) {
-      alert("Name can't be longer than 10 characters!");
+      alert("Namnet får inte vara längre än 10 tecken!");
     }
     return;
   }
